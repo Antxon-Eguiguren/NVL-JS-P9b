@@ -1,4 +1,4 @@
-<!-- 
+	<!-- 
 
 Práctica P9b - Módulo 3 JS
 
@@ -21,12 +21,21 @@ Crea un array donde se guarde en cada celda como primer elemento el día de la s
 
 		var semana = 'Lunes,Martes,Miercoles,Jueves,Viernes,Sabado,Domingo';
 		var ciudad = 'Madrid.Sevilla.Barcelona.Valencia.Zaragoza.Bilbao.Donosti';
-		var arrayConciertos = [semana.split(","), ciudad.split(",")];
 
-		for (i = 0; i < arrayConciertos.length; i++) {
-  			alert(arrayConciertos[i]);
-  		}
-  		
+		var arraySemana = semana.split(',');
+		var arrayCiudad = ciudad.split('.');
+		var arrayAgenda[][];
+
+		// Relleno la primera columna con los días de la semana
+		for (var i = 0; i <= arraySemana.length; i++) {
+			arrayAgenda[i][0] = arraySemana[i];
+		}
+
+		// Relleno la segunda columna con las ciudades
+		for ( var i = 0; i <= arrayCiudad.length; i++) {
+			arrayAgenda[i][1] = arrayCiudad[i]; 
+		}
+
 	</script>
 </head>
 <body>
